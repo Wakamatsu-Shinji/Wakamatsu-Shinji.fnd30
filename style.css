@@ -1,0 +1,42 @@
+
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+  }
+
+h3{
+  text-align: center;
+  }
+  
+#ready{
+  display: none;
+  text-align: center;
+}
+
+p{
+  display: none;
+  text-align: center;
+}
+
+p2{
+  display: block;
+  text-align: center;
+}
+
+.displayOfName{
+  display: none;
+  justify-content: space-around;
+}
+
+div.displayOfPicture{
+  display: none;
+  justify-content: space-around;
+}
+
+div.displayOfResultPicture{
+  display: none;
+  justify-content: space-around;
+}
