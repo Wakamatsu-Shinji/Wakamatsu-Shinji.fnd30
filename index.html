@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  
+  <body>
+    <h1 >じゃんけんゲーム</h1>
+
+    <h2>
+      <button type="button" id = "easyMode" onclick="easyMode()" >Easy</button>
+      <button type="button" id = "normalMode" onclick="normalMode()" >Normal</button>
+      <button type="button" id = "meoshiMode" onclick="meoshiMode()" >目押し</button>
+    </h2>
+
+    <h3>
+      <button type="button" id = "idOfStartButton" onclick="onClickStart()" >Start!
+      </button>
+    </h3>
+
+    <div id = "ready" >じゃんけん。。。
+    </div>
+
+    <p>
+      <button type="button" id = "idOfLockButton" onclick="onClickLock()" >グー</button>
+      <button type="button" id = "idOfScissorsButton" onclick="onClickScissors()" >チョキ</button>
+      <button type="button" id = "idOfPaperButton" onclick="onClickPaper()" >パー</button>
+    </p>
+ 
+    <div class = "displayOfName">
+      <div>player
+      </div>
+      <div>computer
+      </div>
+    </div> 
+     
+    <div class = "displayOfPicture">
+      <img id = pictureOfPlayer src="lock_player.jpg" width="300">
+      <img id = pictureOfCom src="lock_com.jpg" width="300">
+    </div> 
+
+    <div class = "displayOfResultPicture">
+        <img id = resultPictureOfPlayer src="lock_player.jpg" width="300">
+        <img id = resultPictureOfCom src="lock_com.jpg" width="300">
+    </div> 
+
+    <p>
+      結果
+    </p>
+
+    <p2>
+       <!--　判定結果  -->
+    </p2>
+
+
+
+  </body>
+</html>
